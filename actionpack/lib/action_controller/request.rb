@@ -539,7 +539,7 @@ EOM
       hash
     end
 
-    def parse_query(qs)
+    def parse_query(qs, delimiters = nil)
       deep_munge(super)
     end
   end
